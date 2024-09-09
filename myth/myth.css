@@ -44,6 +44,11 @@ a:visited {
     margin-right: 50px; 
   }
 
+  .gods_table{
+    font-size: 12px; 
+    color:rgb(1, 71, 156)
+  }
+
   .title-section {
     background-image: url('greece.jpg');
     background-size: cover; /* Ensures the image covers the entire container */
