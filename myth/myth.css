@@ -1,0 +1,83 @@
+body {
+    background: rgb(249, 249, 244);
+    font-size: 28pt;
+}
+  
+p {
+    color: rgb(97, 97, 114);
+    font-size: 12pt; 
+}
+
+a {
+    color: rgb(66, 104, 125); /* Set the default link color */
+    text-decoration: none; /* Remove the underline */
+}
+
+/* Change color on hover */
+a:hover {
+    color: rgb(49, 115, 202); /* Change link color on hover */
+    text-decoration: underline; /* Optionally add an underline on hover */
+}
+
+/* Change color of visited links */
+a:visited {
+    color: rgb(43, 49, 70); /* Change color for visited links */
+}
+
+  h1 {
+    color:rgb(255, 255, 255); 
+    font-size: 50pt;
+  }
+
+  h2 {
+    color:rgb(75, 112, 157); 
+    font-size: 15pt;
+  }
+
+  h3 {
+    color:rgb(41, 61, 86); 
+    font-size: 20pt;
+  }
+
+  .greece{
+    margin-left: 50px;
+    margin-right: 50px; 
+  }
+
+  .title-section {
+    background-image: url('greece.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    width: 100%; /* Full width of the screen */
+    height: 300px; /* Set a height for the title section */
+    display: flex; /* Use flexbox to center text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for readability */
+}
+
+nav {
+    background-color: #c9d1d4; /* Dark background for the nav bar */
+    overflow: hidden; /* Clear floats (to make sure the content fits) */
+}
+
+/* Style the navigation links inside the nav bar */
+nav a {
+    font-family: Verdana;
+    font-size: 12pt; 
+    float: left; /* Align links to the left */
+    display: block; /* Set each link to be a block element */
+    color: rgb(125, 137, 160); /* Link text color */
+    text-align: center; /* Center the text inside each link */
+    padding: 14px 20px; /* Add padding around the links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Change color on hover */
+nav a:hover {
+    background-color: #6788b0; /* Light gray background on hover */
+    color: rgb(227, 240, 255); /* Dark text color on hover */
+}
