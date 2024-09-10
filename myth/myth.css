@@ -1,88 +1,139 @@
 body {
-    background: rgb(249, 249, 244);
+    background: #F9F9F4;
     font-size: 28pt;
 }
   
-p {
-    color: rgb(97, 97, 114);
+div p {
+    color: #616172;
+    font-size: 12pt; 
+}
+
+.list_design {
+    color: #616172;
     font-size: 12pt; 
 }
 
 a {
-    color: rgb(66, 104, 125); /* Set the default link color */
-    text-decoration: none; /* Remove the underline */
+    color: #42687D; 
+    text-decoration: none; 
 }
 
-/* Change color on hover */
+#characterSelect {
+  background-color: #d8eaf4;
+  color: #112f77;
+  border: 1px solid #3f6a9f;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif; 
+  text-align: center;
+  width: 500 px; 
+}
+
 a:hover {
-    color: rgb(49, 115, 202); /* Change link color on hover */
-    text-decoration: underline; /* Optionally add an underline on hover */
+    color: #3173CA; 
+    text-decoration: underline; 
 }
 
-/* Change color of visited links */
 a:visited {
-    color: rgb(43, 49, 70); /* Change color for visited links */
+    color: #2B3146; 
 }
 
-  h1 {
-    color:rgb(255, 255, 255); 
-    font-size: 50pt;
+h1 {
+  color:#FFFFFF; 
+  font-size: 50pt;
+}
+
+select option {
+  background-color: #FFFFFF; 
+  padding: 10px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif
   }
 
-  h2 {
-    color:rgb(75, 112, 157); 
-    font-size: 15pt;
-  }
+h2 {
+  color: #4B709D; 
+  font-size: 15pt;
+}
 
-  h3 {
-    color:rgb(41, 61, 86); 
-    font-size: 20pt;
-  }
+h3 {
+  color:#293D56; 
+  font-size: 20pt;
+  margin-bottom: 5px; 
+}
 
-  .greece{
-    margin-left: 50px;
-    margin-right: 50px; 
-  }
+.greece{
+  margin-left: 50px;
+  margin-right: 50px; 
+  font-size: 14px; 
+}
 
-  .gods_table{
-    font-size: 12px; 
-    color:rgb(1, 71, 156)
-  }
+.gods_table{
+  font-size: 16px; 
+  color:#01479C
+}
 
-  .title-section {
-    background-image: url('greece.jpg');
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image */
-    width: 100%; /* Full width of the screen */
-    height: 300px; /* Set a height for the title section */
-    display: flex; /* Use flexbox to center text */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for readability */
+.title-section {
+  background-image: url('greece.jpg');
+  background-size: cover; 
+  background-position: center; 
+  width: 100%; 
+  height: 300px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  margin:20px; 
+}
+
+.right-image {
+  max-width: 300px; 
+  margin: 20px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #35486E;
+}
+
+.inline-image {
+  float: right; 
+  margin: 10px; 
+  max-width: 200px; 
+  height: auto; 
+}
+
+.text-content {
+  display: flex;
+  flex-direction: row; 
+  flex: 1; 
+}
+
+.hidden {
+display: none;
 }
 
 nav {
-    background-color: #c9d1d4; /* Dark background for the nav bar */
-    overflow: hidden; /* Clear floats (to make sure the content fits) */
+  background-color: #c9d1d4;
+  overflow: hidden; 
 }
 
-/* Style the navigation links inside the nav bar */
 nav a {
-    font-family: Verdana;
-    font-size: 12pt; 
-    float: left; /* Align links to the left */
-    display: block; /* Set each link to be a block element */
-    color: rgb(125, 137, 160); /* Link text color */
-    text-align: center; /* Center the text inside each link */
-    padding: 14px 20px; /* Add padding around the links */
-    text-decoration: none; /* Remove underline from links */
+  font-family: Verdana;
+  font-size: 12pt; 
+  float: right; 
+  display: block; 
+  color: #7D89A0; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
 }
 
-/* Change color on hover */
 nav a:hover {
-    background-color: #6788b0; /* Light gray background on hover */
-    color: rgb(227, 240, 255); /* Dark text color on hover */
+  background-color: #6788b0; 
+  color: #E3F0FF;
 }
